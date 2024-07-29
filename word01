@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de informática: Meu Herói Favorito</title>
+    <style>
+   
+    </style>
+</head>
+
+<body>
+
+    <h1>Atividade de informática: Meu Herói Favorito</h1>
+    <p class="desc"></p>
+
+    <h2>Objetivo</h2>
+    <p class="desc">Pesquisar sobre um herói (pode ser um personagem histórico, figura pública, super-herói de
+        quadrinhos, etc.) e criar um documento no Word que inclua texto formatado, imagens, e uma tabela simples.</p>
+    <p>Use a internet para pesquisar informações sobre o herói escolhido. Procure detalhes como:
+    </p>
+    <ul>
+        <li>Nome completo</li>
+        <li>Breve biografia</li>
+        <li>Principais realizações</li>
+        <li>Imagens relevantes</li>
+    </ul>
+
+    <h3>Título e Introdução</h3>
+    <ul>
+        <li><input type="checkbox"> Crie um novo documento Word ou WordPad</li>
+        <li><input type="checkbox"> Insira um título para o documento (ex.: "Meu Herói: [Nome do Herói]").</li>
+        <li><input type="checkbox"> Escreva uma breve introdução sobre por que escolheu esse herói.</li>
+        <li><input type="checkbox"> Biografia e Realizações</li>
+        <li><input type="checkbox"> Escreva um parágrafo sobre a biografia do herói</li>
+        <li><input type="checkbox"> Escreva outro parágrafo sobre as principais realizações</li>
+        <li><input type="checkbox"> Inserção de Imagens</li>
+        <li><input type="checkbox"> Insira pelo menos duas imagens do herói. Use a ferramenta de pesquisa de imagens no
+            Word ou copie e cole da internet, lembrando-se de citar a fonte.</li>
+    </ul>
+
+    <h3>Tabela Simples</h3>
+    <ul>
+        <li><input type="checkbox"> Crie uma tabela com duas colunas e três linhas. Na primeira coluna, liste as
+            qualidades do herói. Na segunda coluna, descreva exemplos de cada qualidade.</li>
+    </ul>
+
+    <h3>Formatação e Revisão</h3>
+    <ul>
+        <li><input type="checkbox"> <b>Formate o texto:</b> use negrito, itálico e sublinhado para destacar informações
+            importantes.</li>
+        <li><input type="checkbox"> Ajuste as margens e o espaçamento para uma aparência organizada.</li>
+        <li><input type="checkbox"> Revise o documento para corrigir erros de digitação ou gramática.</li>
+    </ul>
+
+
+    <p class="desc">Esta atividade não só desenvolve habilidades de pesquisa e formatação de texto, mas também incentiva
+        a criatividade e o interesse em figuras inspiradoras.</p>
+</body>
+
+</html>
