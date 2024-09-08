@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Excel para Iniciantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2E8B57;
+        }
+        h2 {
+            color: #4682B4;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .exercise {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercícios de Excel para Iniciantes</h1>
+
+    <div class="exercise">
+        <h2>Exercício 1: Tabela de Despesas Mensais</h2>
+        <p><strong>Objetivo:</strong> Organizar dados de despesas em uma planilha e usar fórmulas simples para calcular soma e média.</p>
+
+        <h3>Instruções:</h3>
+        <p>Siga os passos abaixo para criar uma tabela de despesas mensais no Excel:</p>
+        
+        <ol>
+            <li><strong>Criação da Tabela:</strong> Insira os seguintes dados em uma nova planilha:</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Categoria</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>01/09</td><td>Alimentação</td><td>Supermercado</td><td>120,00</td></tr>
+                <tr><td>03/09</td><td>Transporte</td><td>Gasolina</td><td>50,00</td></tr>
+                <tr><td>05/09</td><td>Lazer</td><td>Cinema</td><td>30,00</td></tr>
+                <tr><td>10/09</td><td>Alimentação</td><td>Restaurante</td><td>60,00</td></tr>
+                <tr><td>12/09</td><td>Transporte</td><td>Uber</td><td>35,00</td></tr>
+                <tr><td>15/09</td><td>Educação</td><td>Curso online</td><td>200,00</td></tr>
+                <tr><td>20/09</td><td>Saúde</td><td>Farmácia</td><td>80,00</td></tr>
+                <tr><td>25/09</td><td>Lazer</td><td>Show</td><td>150,00</td></tr>
+                <tr><td>28/09</td><td>Educação</td><td>Livros</td><td>100,00</td></tr>
+            </tbody>
+        </table>
+
+        <ol start="2">
+            <li><strong>Formatar a Planilha:</strong> Ajuste a largura das colunas, formate os valores como "Moeda", e destaque os títulos da tabela em negrito e cor de fundo.</li>
+            <li><strong>Inserir Fórmulas:</strong> Calcule o total das despesas usando a fórmula <code>=SOMA(D2:D10)</code> e a média diária com <code>=MÉDIA(D2:D10)</code>.</li>
+            <li><strong>Gráfico:</strong> Crie um gráfico de barras para visualizar as despesas por categoria.</li>
+        </ol>
+    </div>
+
+    <div class="exercise">
+        <h2>Exercício 2: Controle de Estoque</h2>
+        <p><strong>Objetivo:</strong> Criar uma planilha para controlar o estoque de produtos, aplicando fórmulas para calcular valores totais e médias.</p>
+
+        <h3>Instruções:</h3>
+        <p>Siga os passos para organizar o controle de estoque de uma loja:</p>
+
+        <ol>
+            <li><strong>Criação da Tabela:</strong> Insira os dados abaixo em uma nova planilha no Excel:</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário (R$)</th>
+                    <th>Valor Total (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Camiseta</td><td>Vestuário</td><td>50</td><td>30,00</td><td></td></tr>
+                <tr><td>Calça Jeans</td><td>Vestuário</td><td>40</td><td>90,00</td><td></td></tr>
+                <tr><td>Notebook</td><td>Eletrônicos</td><td>10</td><td>2.500,00</td><td></td></tr>
+                <tr><td>Smartphone</td><td>Eletrônicos</td><td>15</td><td>1.200,00</td><td></td></tr>
+                <tr><td>Tênis</td><td>Calçados</td><td>30</td><td>150,00</td><td></td></tr>
+            </tbody>
+        </table>
+
+        <ol start="2">
+            <li><strong>Calcular Valor Total:</strong> Insira a fórmula para calcular o valor total de cada produto: <code>=C2*D2</code> e arraste para aplicar a todos os produtos.</li>
+            <li><strong>Calcular Estoque Total:</strong> Use a fórmula <code>=SOMA(C2:C6)</code> para calcular a quantidade total de produtos no estoque.</li>
+            <li><strong>Calcular Média de Preço:</strong> Utilize <code>=MÉDIA(D2:D6)</code> para calcular o preço médio dos produtos no estoque.</li>
+            <li><strong>Formatação:</strong> Ajuste as colunas e formate os valores como "Moeda". Deixe os títulos em negrito.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
