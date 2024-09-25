@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Excel para Iniciantes - Parte 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2E8B57;
+        }
+        h2 {
+            color: #4682B4;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .exercise {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercícios de Excel para Iniciantes - Parte 2</h1>
+
+    <div class="exercise">
+        <h2>Exercício 3: Planejamento de Férias</h2>
+        <p><strong>Objetivo:</strong> Criar uma planilha para planejar os custos de férias, utilizando soma e aplicação de descontos.</p>
+
+        <h3>Instruções:</h3>
+        <p>Siga os passos para organizar os custos de uma viagem de férias:</p>
+
+        <ol>
+            <li><strong>Criação da Tabela:</strong> Insira os dados abaixo em uma nova planilha no Excel:</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Categoria</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário (R$)</th>
+                    <th>Valor Total (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Passagens Aéreas</td><td>Transporte</td><td>2</td><td>1.200,00</td><td></td></tr>
+                <tr><td>Hotel</td><td>Hospedagem</td><td>5 diárias</td><td>300,00</td><td></td></tr>
+                <tr><td>Alimentação</td><td>Comida</td><td>5 dias</td><td>100,00</td><td></td></tr>
+                <tr><td>Passeios</td><td>Lazer</td><td>3</td><td>150,00</td><td></td></tr>
+                <tr><td>Transporte Local</td><td>Transporte</td><td>5 dias</td><td>50,00</td><td></td></tr>
+            </tbody>
+        </table>
+
+        <ol start="2">
+            <li><strong>Calcular o Valor Total:</strong> Use a fórmula <code>=C2*D2</code> para calcular o valor total de cada item e arraste para as demais linhas.</li>
+            <li><strong>Aplicar Desconto:</strong> Na célula ao lado da tabela, calcule o valor total da viagem (use <code>=SOMA(E2:E6)</code>) e aplique um desconto de 10% sobre o valor total.</li>
+            <li><strong>Formatação:</strong> Formate as células como "Moeda" e aplique formatação condicional para destacar valores acima de R$ 500,00.</li>
+        </ol>
+    </div>
+
+    <div class="exercise">
+        <h2>Exercício 4: Controle de Notas Escolares</h2>
+        <p><strong>Objetivo:</strong> Criar uma planilha de controle de notas e calcular médias dos alunos.</p>
+
+        <h3>Instruções:</h3>
+        <p>Siga os passos para criar um controle de notas escolares no Excel:</p>
+
+        <ol>
+            <li><strong>Criação da Tabela:</strong> Insira os dados abaixo em uma nova planilha:</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Prova 3</th>
+                    <th>Média Final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Ana</td><td>8.5</td><td>9.0</td><td>7.5</td><td></td></tr>
+                <tr><td>Lucas</td><td>7.0</td><td>6.5</td><td>8.0</td><td></td></tr>
+                <tr><td>Pedro</td><td>9.5</td><td>8.0</td><td>9.0</td><td></td></tr>
+                <tr><td>Maria</td><td>6.5</td><td>7.5</td><td>8.0</td><td></td></tr>
+                <tr><td>João</td><td>8.0</td><td>7.0</td><td>7.5</td><td></td></tr>
+            </tbody>
+        </table>
+
+        <ol start="2">
+            <li><strong>Calcular a Média:</strong> Use a fórmula <code>=MÉDIA(B2:D2)</code> para calcular a média final de cada aluno e arraste para os demais.</li>
+            <li><strong>Formatação Condicional:</strong> Aplique uma formatação condicional para destacar as médias acima de 7.0.</li>
+            <li><strong>Gráfico:</strong> Crie um gráfico de colunas para mostrar a média final de cada aluno.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
